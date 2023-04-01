@@ -102,13 +102,55 @@ h4{
 label {
     color: var(--lightColor);
 }
-   .form action {
+.about {
+    background-color: var(--bgColor-1);
+    padding: 2rem var(--padding);
+    }
+    .about .container-images {
+        width: 35%;
+    }
+    .about .container-images img {
+    width: 90%;
+    } 
+.about .container-texts {
+    width: 35%;
+}
+    .about{
     position: relative;
-    bottom: -300px;
-   } 
+    bottom: 2500px;
+}
+.skills {
+    background-color: var(--bgColor);
+    padding: 2rem var(--padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .container-images {
+    width: 35%;
+}
+.skills .container-images img{
+    width: 90%;
+}
+.skills .container-skills {
+    width: 40%;
+}
+.content-skills {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills {
+    width: 100px;
+    height: 100px;
+}
+.skills {
+    position: relative;
+    bottom: 2200px;
+}
+
    footer{
     padding: 2rem var(--padding);
-    background-color: var(--bgColor-1);
+    background-color: var(--bgColor);
    }
    footer.content-footer{
     display: flex;
@@ -118,7 +160,8 @@ label {
    }
    .content-footer{
     position: relative;
-    bottom: 2000px;
+    bottom: 1900px;
    }
+
    
 
